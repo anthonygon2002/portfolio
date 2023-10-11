@@ -1,0 +1,318 @@
+/* 
+Student Name: Anthony Gonzalez
+File Name: styles.css
+Date: 4/24/2022
+*/
+
+
+/* General page style elements*/
+.gregory {
+    position:fixed;
+    width:800px;
+    height: 600px;
+    right:0;
+    bottom:0;
+
+}
+html {
+    background-color:  #FFDE72;
+    font-family: 'Kalam', cursive;
+    width: 100%;
+}
+
+p {
+    font-size: 23px;
+    text-size-adjust: 200px;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 40px#FFDEC1);
+}
+
+img {
+    border-radius: 20px;
+    max-height: 450px;
+}
+
+body { 
+    opacity: 0;
+    transition: opacity .5s;
+ }
+
+/*h list style rules*/
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 40px#FFDEC1);
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    filter: drop-shadow(2px 2px 2px#777777);
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 40px#FFDEC1);
+
+}
+
+h5 {
+    font-size: 23px;
+    text-size-adjust: 200px;
+    font-weight: 200;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 40px#FFDEC1);
+}
+h6 {
+    font-size: 23px;
+    margin:0;
+    margin-bottom: 20px;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 40px#FFDEC1);
+}
+/*NAV LIST STYLE RULES*/
+
+/*The Nav includes the styling for the bar that allows users to transition between pages*/
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 1px;
+    background-color: rgb(255, 222, 193);
+    /*Border on Nav*/
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 35px;
+    max-width: 850px;
+    max-height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0%;
+    flex-grow: 6;
+}
+
+nav li {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2%;
+    display: inline-block;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 20px#FFDEC1);
+}
+
+/* class element style rules for index.html*/
+
+.navdiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.video {
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+    display: block;
+}
+
+.spanstyle {
+    font-weight: 900px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+/*class element style rules for contact.html*/
+
+.contactinfosize {
+    font-size: 25px;
+    font-weight: 20%;
+}
+
+.pagedesc {
+    font-size: 27px;
+    text-decoration: underline;
+    margin-bottom: 3%;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 30px#FFDEC1);
+}
+.schoollink {
+    width: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    display: block;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(23px 5px 30px#FFDEC1);
+} 
+
+.imagetext {
+    font-size: 25px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-decoration: underline;
+    filter: drop-shadow(2px 2px 2px#f2ca19) drop-shadow(5px 1px 20px#FFDEC1);
+}
+
+/*class element style rules for about.html*/    
+
+.selfimg {
+    max-width: 850px;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.selftwo {
+    margin-left: 5px;
+}
+ 
+.studentname {
+    text-align: center;
+    font-weight: bold;
+}
+
+.date {
+    text-align: center;
+    font-weight: bold;
+}
+
+.images {
+    object-fit: cover;
+    transition: transform 1s ;
+    z-index: 1;
+}
+
+.abouttext {
+    font-size: larger;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* anchor text color */
+
+a { 
+    color: black;
+}
+
+/*psuedo-class elements*/
+
+.spanstyle:visited {
+    color:#c5c5c5;
+}
+
+.spanstyle:hover {
+    color:#ff5f38;
+    cursor: pointer;
+}
+
+.images:hover {
+    transform: scale(1.50);
+    z-index: 2;
+}
+/*Gradient style rules*/
+
+.gradient {
+    color: black;
+    max-width: 850px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, rgb(255, 222, 193), rgba(242, 202, 25));
+    font-size: 20px;
+}
+
+.gradient p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ml9 {
+  margin-top: 40px;
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+    font-weight: 800;
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+
+}
+/*style rules for mobile viewport*/
+
+@media all and (max-width: 820px) {
+
+    .images {
+        max-width: 50%;
+    }
+
+    .schoollink {
+        width: 100%
+    }
+
+    .video {
+        width: 100%;
+    }
+    
+    .gregory {
+        width: 100%;
+    }
+
+    nav {
+        max-width: 850px;
+        max-height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav li {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-left: 2px;
+    }
+
+    .letter {
+        font-size: 45px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+}
